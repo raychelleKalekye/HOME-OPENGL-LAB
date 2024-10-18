@@ -53,6 +53,16 @@ ctx.rectangle(40, 350, 400, 20)
 ctx.set_line_width(5)
 ctx.stroke()
 
+#triangle roof
+ctx.move_to(115, 115)
+ctx.line_to(25, 210)
+ctx.line_to(36, 220)
+ctx.line_to(115, 140)
+ctx.line_to(194, 220)
+ctx.line_to(203, 210)
+ctx.close_path()
+ctx.stroke()
+
 # Function to draw a rectangle outline
 def draw_rectangle_outline(ctx, x, y, w, h):
     ctx.rectangle(x, y, w, h)
