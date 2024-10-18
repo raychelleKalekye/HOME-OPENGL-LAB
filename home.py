@@ -36,6 +36,23 @@ ctx.line_to(430, 200)
 ctx.set_source_rgb(0, 0, 0)
 ctx.stroke()
 
+
+#  roof
+ctx.set_source_rgb(0, 0, 0)
+ctx.move_to(194, 200)
+ctx.line_to(117, 115)
+ctx.line_to(350, 115)
+ctx.line_to(440, 200)
+ctx.set_line_width(5)
+ctx.close_path()
+ctx.stroke()
+
+#  base
+ctx.set_source_rgb(0, 0, 0)
+ctx.rectangle(40, 350, 400, 20)
+ctx.set_line_width(5)
+ctx.stroke()
+
 # Function to draw a rectangle outline
 def draw_rectangle_outline(ctx, x, y, w, h):
     ctx.rectangle(x, y, w, h)
