@@ -1,3 +1,4 @@
 -> install python
 -> install a code editor eg VS code
 -> install pycairo
+-> install math
