@@ -53,6 +53,7 @@ ctx.rectangle(40, 350, 400, 20)
 ctx.set_line_width(5)
 ctx.stroke()
 
+
 #triangle roof
 ctx.move_to(115, 115)
 ctx.line_to(25, 210)
